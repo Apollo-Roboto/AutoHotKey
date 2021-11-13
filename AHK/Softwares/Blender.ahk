@@ -35,7 +35,7 @@ F19::
 	Return
 
 ; 8
-~F20::
+F20::
 	Return
 
 ; 9 Face mode

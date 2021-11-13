@@ -32,7 +32,7 @@ F19::
 	Return
 
 ; 8 Fast tea bagging
-~F20::
+F20::
 	isTBagging := 1
 	While(isTBagging == 1)
 	{
@@ -43,8 +43,8 @@ F19::
 	}
 	Return
 
-; LCtrl::
-~F20 Up::
+; ~LCtrl::
+F20 Up::
 	; won't get called sometimes, pls fix
 	isTBagging = 0
 

@@ -39,7 +39,7 @@ F19::
 	Return
 
 ; 8 Restore last closed tab
-~F20::
+F20::
 	Send, ^+{t}
 	Return
 

@@ -32,6 +32,6 @@ function LoadAHK()
 	}
 }
 
-LoadAHK .\Softwares
-LoadAHK .\Games
-LoadAHK .\Global
+LoadAHK .\AHK\Softwares
+LoadAHK .\AHK\Games
+LoadAHK .\AHK\Global

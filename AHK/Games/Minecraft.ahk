@@ -37,7 +37,7 @@ F19::
 	Return
 
 ; 8
-~F20::
+F20::
 	send, {8}
 	Return
 
