@@ -17,9 +17,9 @@ F24::
 
 ; Profile switch
 ^F1::
-	Send, #{g}
 	Return
 
-; DPI toggle
+; DPI toggle Opens the xbox gamebar
 ^F2::
+	Send, #{g}
 	Return
