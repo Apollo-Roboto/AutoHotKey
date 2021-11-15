@@ -1,3 +1,4 @@
+#NoTrayIcon
 #SingleInstance, Force
 #IfWinActive, ahk_exe firefox.exe
 
@@ -24,6 +25,7 @@ F16::
 	Return
 
 ; 5 Refresh the page
+~^F17::
 F17::
 	Send, {F5}
 	Return

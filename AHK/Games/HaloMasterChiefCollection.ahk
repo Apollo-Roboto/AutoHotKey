@@ -1,3 +1,4 @@
+#NoTrayIcon
 #SingleInstance, Force
 #IfWinActive, ahk_exe MCC-Win64-Shipping.exe
 

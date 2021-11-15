@@ -1,3 +1,4 @@
+#NoTrayIcon
 #SingleInstance, Force
 #IfWinActive, ahk_exe Code.exe
 
