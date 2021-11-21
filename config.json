@@ -1,9 +1,12 @@
 {
-	"CurrentProfile": "Personal",
+	"$schema": "./Schemas/configSchema.json",
+
+	"CurrentProfile": "PersonalASD",
 
 	"Profiles": {
 		"Personal":[
 			"./AHK/Global/Default.ahk",
+
 			"./AHK/Softwares/Blender.ahk",
 			"./AHK/Softwares/Explorer.ahk",
 			"./AHK/Softwares/Firefox.ahk",
@@ -19,6 +22,7 @@
 
 		"Work": [
 			"./AHK/Global/Default.ahk",
+
 			"./AHK/Softwares/Explorer.ahk",
 			"./AHK/Softwares/Firefox.ahk",
 			"./AHK/Softwares/Typora.ahk",

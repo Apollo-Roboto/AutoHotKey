@@ -1,0 +1,28 @@
+{
+	"$schema": "http://json-schema.org/draft-07/schema",
+	"title": "Config",
+	"description": "Configuration schema definition",
+	"type": "object",
+	"properties": {
+		"CurrentProfile": {
+			"description": "Sets the current profile",
+			"type": "string"
+		},
+		"Profiles": {
+			"description": "Defines the profile and which AutoHotkey files this profile should be loading.",
+			"type": "object",
+			"additionalProperties": {
+				"type": "array",
+				"items": {
+					"type": "string"
+				},
+				"uniqueItems": true
+			},
+			"minProperties": 1
+		}
+	},
+	"required": [
+		"CurrentProfile",
+		"Profiles"
+	]
+}
