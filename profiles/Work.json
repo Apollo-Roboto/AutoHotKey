@@ -1,0 +1,10 @@
+{
+	"files":[
+		"./AHK/Global/Default.ahk",
+		"./AHK/Softwares/Explorer.ahk",
+		"./AHK/Softwares/Firefox.ahk",
+		"./AHK/Softwares/Typora.ahk",
+		"./AHK/Softwares/VisualStudioCode.ahk",
+		"./AHK/Softwares/WindowsTerminal.ahk"
+	]
+}

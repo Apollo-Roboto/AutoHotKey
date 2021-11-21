@@ -1,5 +1,29 @@
 function LoadAHK()
 {
+	param($file)
+
+	$filePath = $($file.FullName | Resolve-Path -Relative)
+
+	if($file.Extension -ne ".ahk")
+	{
+		Write-Host "Ignoring $filePath" -ForegroundColor Yellow
+		continue
+	}
+
+	Start-Process $filePath
+
+	if($?)
+	{
+		Write-Host "Loaded $filePath" -ForegroundColor Green
+	}
+	else
+	{
+		Write-Host "Failed to load $filePath" -ForegroundColor Red
+	}
+}
+
+function LoadAllAHKFromFolder()
+{
 	param($dirPath)
 
 	if( -not (Test-Path $dirPath))
@@ -11,27 +35,30 @@ function LoadAHK()
 	$files = $(Get-ChildItem $dirPath)
 	foreach($file in $files)
 	{
-		$filePath = $($file.FullName | Resolve-Path -Relative)
-
-		if($file.Extension -ne ".ahk")
-		{
-			Write-Host "Ignoring $filePath" -ForegroundColor Yellow
-			continue
-		}
-
-		Start-Process $filePath
-
-		if($?)
-		{
-			Write-Host "Loaded $filePath" -ForegroundColor Green
-		}
-		else
-		{
-			Write-Host "Failed to load $filePath" -ForegroundColor Red
-		}
+		LoadAHK $file
 	}
 }
 
-LoadAHK .\AHK\Softwares
-LoadAHK .\AHK\Games
-LoadAHK .\AHK\Global
+function LoadProfile()
+{
+	param($AHKprofile)
+
+	$AHKFiles = $(Get-Content $AHKprofile | ConvertFrom-Json).files
+
+	foreach($AHKFile in Get-ChildItem $AHKFiles)
+	{
+		# Write-Host $AHKFile
+		LoadAHK $AHKFile
+	}
+}
+
+function GetProfile()
+{
+	$config = Get-Content .\config.json | ConvertFrom-Json
+	$AHKprofile = "./profiles/$($config.profile).json"
+	return $AHKprofile
+}
+
+
+
+LoadProfile $(GetProfile)
