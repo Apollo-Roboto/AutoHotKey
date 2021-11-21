@@ -43,22 +43,25 @@ function LoadProfile()
 {
 	param($AHKprofile)
 
-	$AHKFiles = $(Get-Content $AHKprofile | ConvertFrom-Json).files
+	# $AHKFiles = $(Get-Content $AHKprofile | ConvertFrom-Json).files
+
+	$config = Get-Content .\config.json | ConvertFrom-Json
+	$AHKFiles = $config.Profiles.$AHKprofile
 
 	foreach($AHKFile in Get-ChildItem $AHKFiles)
 	{
-		# Write-Host $AHKFile
 		LoadAHK $AHKFile
+		# Write-Host $AHKFile
 	}
 }
 
 function GetProfile()
 {
 	$config = Get-Content .\config.json | ConvertFrom-Json
-	$AHKprofile = "./profiles/$($config.profile).json"
+	$AHKprofile = $config.CurrentProfile
 	return $AHKprofile
 }
 
-
-
-LoadProfile $(GetProfile)
+$AHKprofile = $(GetProfile)
+Write-Host "Profile to load: $AHKprofile"
+LoadProfile $AHKprofile

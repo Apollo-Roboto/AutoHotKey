@@ -1,3 +1,29 @@
 {
-	"profile": "Personal"
+	"CurrentProfile": "Personal",
+
+	"Profiles": {
+		"Personal":[
+			"./AHK/Global/Default.ahk",
+			"./AHK/Softwares/Blender.ahk",
+			"./AHK/Softwares/Explorer.ahk",
+			"./AHK/Softwares/Firefox.ahk",
+			"./AHK/Softwares/ThunderBird.ahk",
+			"./AHK/Softwares/Typora.ahk",
+			"./AHK/Softwares/Unity.ahk",
+			"./AHK/Softwares/VisualStudioCode.ahk",
+			"./AHK/Softwares/WindowsTerminal.ahk",
+			
+			"./AHK/Games/HaloMasterChiefCollection.ahk",
+			"./AHK/Games/Minecraft.ahk"
+		],
+
+		"Work": [
+			"./AHK/Global/Default.ahk",
+			"./AHK/Softwares/Explorer.ahk",
+			"./AHK/Softwares/Firefox.ahk",
+			"./AHK/Softwares/Typora.ahk",
+			"./AHK/Softwares/VisualStudioCode.ahk",
+			"./AHK/Softwares/WindowsTerminal.ahk"
+		]
+	}
 }
