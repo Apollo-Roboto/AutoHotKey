@@ -1,7 +1,7 @@
 {
 	"$schema": "./Schemas/configSchema.json",
 
-	"CurrentProfile": "PersonalASD",
+	"CurrentProfile": "Personal",
 
 	"Profiles": {
 		"Personal":[
@@ -15,7 +15,9 @@
 			"./AHK/Softwares/Unity.ahk",
 			"./AHK/Softwares/VisualStudioCode.ahk",
 			"./AHK/Softwares/WindowsTerminal.ahk",
-			
+			"./AHK/Softwares/Figma.ahk",
+			"./AHK/Softwares/Notion.ahk",
+
 			"./AHK/Games/HaloMasterChiefCollection.ahk",
 			"./AHK/Games/Minecraft.ahk"
 		],

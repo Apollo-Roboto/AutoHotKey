@@ -1,6 +1,6 @@
 #NoTrayIcon
 #SingleInstance, Force
-#IfWinActive, ahk_exe Explorer.EXE
+#IfWinActive, ahk_exe Figma.exe
 
 ; 1
 F13::
@@ -13,29 +13,24 @@ F14::
 	send, {Ctrl Up}
 	Return
 
-; 3 Forward
+; 3
 F15::
-	Send, {XButton2}
 	Return
 
-; 4 FullScreen
+; 4
 F16::
-	Send, {F11}
 	Return
 
-; 5 Refresh the page
+; 5
 F17::
-	Send, {F5}
 	Return
 
-; 6 Backward
+; 6
 F18::
-	Send, {XButton1}
 	Return
 
-; 7 Close File explorer
+; 7
 F19::
-	Send, ^{w}
 	Return
 
 ; 8
@@ -44,4 +39,12 @@ F20::
 
 ; 9
 F21::
+	Return
+
+; Profile switch
+^F1::
+	Return
+
+; DPI toggle
+^F2::
 	Return

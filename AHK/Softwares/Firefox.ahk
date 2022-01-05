@@ -16,7 +16,7 @@ F14::
 
 ; 3 Forward
 F15::
-	Send, !{Right}
+	Send, {XButton2}
 	Return
 
 ; 4 FullScreen
@@ -32,7 +32,7 @@ F17::
 
 ; 6 Backward
 F18::
-	Send, !{Left}
+	Send, {XButton1}
 	Return
 
 ; 7 Close current tab

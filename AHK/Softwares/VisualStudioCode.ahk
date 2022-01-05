@@ -7,13 +7,16 @@ F13::
 	Send, ^{Tab}
 	Return
 
-; 2 
+; 2 Ctrl (for jumping through references)
 F14::
+	send, {Ctrl Down}
+	KeyWait, F14
+	send, {Ctrl Up}
 	Return
 
 ; 3 Forward
 F15::
-	Send, !{Right}
+	Send, {XButton2}
 	Return
 
 ; 4 FullScreen
@@ -27,7 +30,7 @@ F17::
 
 ; 6 Backward
 F18::
-	Send, !{Left}
+	Send, {XButton1}
 	Return
 
 ; 7 Close current tab
