@@ -19,7 +19,8 @@
 			"./AHK/Softwares/Notion.ahk",
 
 			"./AHK/Games/HaloMasterChiefCollection.ahk",
-			"./AHK/Games/Minecraft.ahk"
+			"./AHK/Games/Minecraft.ahk",
+			"./AHK/Games/PathOfExile.ahk"
 		],
 
 		"Work": [

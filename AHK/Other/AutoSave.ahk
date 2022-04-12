@@ -14,6 +14,7 @@ loop
 	if (WinActive(targetWindow))
 	{
 		Send, ^{s}
+		TrayTip ,autosave , , ,3
 	}
 	
 	Sleep, %delay%
