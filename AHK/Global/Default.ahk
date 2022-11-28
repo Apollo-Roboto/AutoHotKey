@@ -15,11 +15,11 @@ F24::
 	Send, {Media_Play_Pause}
 	Return
 
-; Profile switch
+; DPI toggle Opens the xbox gamebar
 ^F1::
+	Send, #{g}
 	Return
 
-; DPI toggle Opens the xbox gamebar
+; Profile switch
 ^F2::
-	Send, #{g}
 	Return

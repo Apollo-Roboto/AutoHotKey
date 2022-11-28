@@ -1,3 +1,4 @@
+#NoTrayIcon
 #SingleInstance, Force
 #IfWinActive, ahk_exe app.exe
 
@@ -37,10 +38,10 @@ F20::
 F21::
 	Return
 
-; Profile switch
+; DPI toggle
 ^F1::
 	Return
 
-; DPI toggle
+; Profile switch
 ^F2::
 	Return
