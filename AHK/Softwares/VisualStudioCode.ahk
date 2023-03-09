@@ -24,8 +24,9 @@ F16::
 	Send, {F11}
 	Return
 
-; 5 
+; 5 Toggle side bar
 F17::
+	Send, ^{b}
 	Return
 
 ; 6 Backward

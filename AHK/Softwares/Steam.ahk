@@ -1,10 +1,9 @@
 #NoTrayIcon
 #SingleInstance, Force
-#IfWinActive, ahk_exe Notion.exe
+#IfWinActive, ahk_exe steam.exe
 
-; 1 Open/Close Sidebar
+; 1
 F13::
-	Send, ^{\}
 	Return
 
 ; 2
@@ -13,17 +12,11 @@ F14::
 
 ; 3 Forward
 F15::
-	Send, ^{]}
+	Send, {XButton2}
 	Return
 
-; 4 Fullscreen
+; 4
 F16::
-	Send {F11}
-	Return
-
-; Ctrl 4 Open as page
-^F16::
-	Send ^{Enter}
 	Return
 
 ; 5
@@ -32,7 +25,7 @@ F17::
 
 ; 6 Backward
 F18::
-	Send, ^{[}
+	Send, {XButton1}
 	Return
 
 ; 7

@@ -46,11 +46,3 @@ F20::
 ; 9
 F21::
 	Return
-
-; Profile switch
-^F1::
-	Return
-
-; DPI toggle
-^F2::
-	Return

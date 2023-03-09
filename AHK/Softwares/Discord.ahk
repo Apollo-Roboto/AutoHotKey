@@ -45,11 +45,3 @@ F20::
 F21::
 	Send, ^{u}
 	Return
-
-; DPI toggle
-^F1::
-	Return
-
-; Profile switch
-^F2::
-	Return
