@@ -1,6 +1,6 @@
 #NoTrayIcon
 #SingleInstance, Force
-#IfWinActive, ahk_exe javaw.exe
+#IfWinActive, ahk_exe FortniteClient-Win64-Shipping.exe
 
 ; 1
 F13::
@@ -34,15 +34,12 @@ F18::
 
 ; 7
 F19::
-	send, {7}
 	Return
 
 ; 8
 F20::
-	send, {8}
 	Return
 
 ; 9
 F21::
-	send, {9}
 	Return

@@ -1,12 +1,9 @@
 {
 	"$schema": "./Schemas/configSchema.json",
-
 	"CurrentProfile": "Personal",
-
 	"Profiles": {
-		"Personal":[
+		"Personal": [
 			"./AHK/Global/Default.ahk",
-
 			"./AHK/Softwares/Blender.ahk",
 			"./AHK/Softwares/Explorer.ahk",
 			"./AHK/Softwares/Firefox.ahk",
@@ -19,18 +16,16 @@
 			"./AHK/Softwares/Notion.ahk",
 			"./AHK/Softwares/Discord.ahk",
 			"./AHK/Softwares/Steam.ahk",
-
+			"./AHK/Softwares/Spotify.ahk",
 			"./AHK/Games/HaloMasterChiefCollection.ahk",
 			"./AHK/Games/Minecraft.ahk",
-			"./AHK/Games/PathOfExile.ahk"
+			"./AHK/Games/PathOfExile.ahk",
+			"./AHK/Games/Fortnite.ahk"
 		],
-
 		"Work": [
 			"./AHK/Global/Default.ahk",
-
 			"./AHK/Softwares/Explorer.ahk",
 			"./AHK/Softwares/Firefox.ahk",
-			"./AHK/Softwares/Typora.ahk",
 			"./AHK/Softwares/VisualStudioCode.ahk",
 			"./AHK/Softwares/WindowsTerminal.ahk"
 		]

@@ -4,6 +4,7 @@
 
 ; 1
 F13::
+	Send, ^{Tab}
 	Return
 
 ; 2
@@ -37,4 +38,5 @@ F20::
 
 ; 9
 F21::
+	Send, ^+{T}
 	Return
