@@ -3,46 +3,41 @@
 #IfWinActive, ahk_exe Notion.exe
 
 ; 1 Open/Close Sidebar
-F13::
++F1::
 	Send, ^{\}
 	Return
 
 ; 2
-F14::
++F2::
 	Return
 
 ; 3 Forward
-F15::
++F3::
 	Send, ^{]}
 	Return
 
 ; 4 Fullscreen
-F16::
++F4::
 	Send {F11}
 	Return
 
-; Ctrl 4 Open as page
-^F16::
-	Send ^{Enter}
-	Return
-
 ; 5
-F17::
++F5::
 	Return
 
 ; 6 Backward
-F18::
++F6::
 	Send, ^{[}
 	Return
 
 ; 7
-F19::
++F7::
 	Return
 
 ; 8
-F20::
++F8::
 	Return
 
 ; 9
-F21::
++F9::
 	Return

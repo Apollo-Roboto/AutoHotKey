@@ -3,41 +3,41 @@
 #IfWinActive, ahk_exe Unity.exe
 
 ; 1 Top view (Y)
-F13::
++F1::
 	Send, {Numpad7}
 	Return
 
 ; 2 Front view (Z)
-F14::
++F2::
 	Send, {Numpad1}
 	Return
 
 ; 3
-F15::
++F3::
 	Return
 
 ; 4 Right view (X)
-F16::
++F4::
 	Send, {Numpad3}
 	Return
 
 ; 5 Focus on selected
-F17::
++F5::
 	Send, {f}
 	Return
 
 ; 6
-F18::
++F6::
 	Return
 
 ; 7
-F19::
++F7::
 	Return
 
 ; 8
-F20::
++F8::
 	Return
 
 ; 9
-F21::
++F9::
 	Return

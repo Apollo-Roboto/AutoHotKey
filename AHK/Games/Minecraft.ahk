@@ -3,46 +3,46 @@
 #IfWinActive, ahk_exe javaw.exe
 
 ; 1
-F13::
++F1::
 	send, {1}
 	Return
 
 ; 2
-F14::
++F2::
 	send, {2}
 	Return
 
 ; 3
-F15::
++F3::
 	send, {3}
 	Return
 
 ; 4
-F16::
++F4::
 	send, {4}
 	Return
 
 ; 5
-F17::
++F5::
 	send, {5}
 	Return
 
 ; 6
-F18::
++F6::
 	send, {6}
 	Return
 
 ; 7
-F19::
++F7::
 	send, {7}
 	Return
 
 ; 8
-F20::
++F8::
 	send, {8}
 	Return
 
 ; 9
-F21::
++F9::
 	send, {9}
 	Return

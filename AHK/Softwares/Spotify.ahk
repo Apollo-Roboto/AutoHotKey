@@ -3,51 +3,43 @@
 #IfWinActive, ahk_exe Spotify.exe
 
 ; 1 Seek backward
-F13::
++F1::
     Send, +{Left}
 	Return
 
 ; 2 Previous song
-F14::
++F2::
     Send, ^{Left}
 	Return
 
 ; 3 Forward
-F15::
++F3::
 	Send, !{Right}
 	Return
 
 ; 4 Seek forward
-F16::
++F4::
     Send, +{Right}
 	Return
 
 ; 5 Next song
-F17::
++F5::
     Send, ^{Right}
     Return
 
 ; 6 Backward
-F18::
++F6::
 	Send, !{Left}
 	Return
 
 ; 7
-F19::
++F7::
 	Return
 
 ; 8
-F20::
++F8::
 	Return
 
 ; 9
-F21::
-	Return
-
-; DPI toggle
-^F1::
-	Return
-
-; Profile switch
-^F2::
++F9::
 	Return

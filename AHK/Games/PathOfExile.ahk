@@ -3,7 +3,7 @@
 #IfWinActive, ahk_exe PathOfExileSteam.exe
 
 ; 1 use all the flasks
-F13::
++F1::
 	Send, {1}
 	Sleep, 50
 	Send, {2}
@@ -16,33 +16,33 @@ F13::
 	Return
 
 ; 2
-F14::
++F2::
 	Return
 
 ; 3
-F15::
++F3::
 	Return
 
 ; 4
-F16::
++F4::
 	Return
 
 ; 5
-F17::
++F5::
 	Return
 
 ; 6
-F18::
++F6::
 	Return
 
 ; 7
-F19::
++F7::
 	Return
 
 ; 8
-F20::
++F8::
 	Return
 
 ; 9
-F21::
++F9::
 	Return

@@ -3,37 +3,37 @@
 #IfWinActive, ahk_exe MCC-Win64-Shipping.exe
 
 ; 1
-F13::
++F1::
 	Return
 
 ; 2
-F14::
++F2::
 	Return
 
 ; 3
-F15::
++F3::
 	Send, {Up}
 	Return
 
 ; 4
-F16::
++F4::
 	Return
 
 ; 5
-F17::
++F5::
 	Return
 
 ; 6
-F18::
++F6::
 	Send, {Down}
 	Return
 
 ; 7
-F19::
++F7::
 	Return
 
 ; 8 Fast tea bagging
-F20::
++F8::
 	isTBagging := 1
 	While(isTBagging == 1)
 	{
@@ -50,5 +50,5 @@ F20 Up::
 	isTBagging = 0
 
 ; 9
-F21::
++F9::
 	Return

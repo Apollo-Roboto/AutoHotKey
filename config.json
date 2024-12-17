@@ -4,6 +4,7 @@
 	"Profiles": {
 		"Personal": [
 			"./AHK/Global/Default.ahk",
+			"./AHK/Global/All.ahk",
 			"./AHK/Softwares/Blender.ahk",
 			"./AHK/Softwares/Explorer.ahk",
 			"./AHK/Softwares/Firefox.ahk",
@@ -20,10 +21,13 @@
 			"./AHK/Games/HaloMasterChiefCollection.ahk",
 			"./AHK/Games/Minecraft.ahk",
 			"./AHK/Games/PathOfExile.ahk",
-			"./AHK/Games/Fortnite.ahk"
+			"./AHK/Games/Fortnite.ahk",
+			"./AHK/Games/CallOfDuty.ahk",
+			"./AHK/Games/MarvelRivals.ahk"
 		],
 		"Work": [
 			"./AHK/Global/Default.ahk",
+			"./AHK/Global/All.ahk",
 			"./AHK/Softwares/Explorer.ahk",
 			"./AHK/Softwares/Firefox.ahk",
 			"./AHK/Softwares/VisualStudioCode.ahk",

@@ -3,48 +3,48 @@
 #IfWinActive, ahk_exe Code.exe
 
 ; 1 Switch tab
-F13::
++F1::
 	Send, ^{Tab}
 	Return
 
 ; 2 Ctrl (for jumping through references)
-F14::
++F2::
 	send, {Ctrl Down}
 	KeyWait, F14
 	send, {Ctrl Up}
 	Return
 
 ; 3 Forward
-F15::
++F3::
 	Send, {XButton2}
 	Return
 
 ; 4 FullScreen
-F16::
++F4::
 	Send, {F11}
 	Return
 
 ; 5 Toggle side bar
-F17::
++F5::
 	Send, ^{b}
 	Return
 
 ; 6 Backward
-F18::
++F6::
 	Send, {XButton1}
 	Return
 
 ; 7 Close current tab
-F19::
++F7::
 	Send, ^{w}
 	Return
 
 ; 8 Restore last closed tab
-F20::
++F8::
 	Send, ^+{t}
 	Return
 
 ; 9 Open new file
-F21::
++F9::
 	Send, ^{n}
 	Return

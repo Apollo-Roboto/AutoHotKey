@@ -3,45 +3,45 @@
 #IfWinActive, ahk_exe Discord.exe
 
 ; 1 Switch server down
-F13::
++F1::
 	Send, ^{Tab}
 	Return
 
 ; 1 Switch server down
-F14::
++F2::
 	Send, ^+{Tab}
 	Return
 
 ; 3 Forward
-F15::
++F3::
 	Send, !{Right}
 	Return
 
 ; 4 Switch channel down
-F16::
++F4::
 	Send, !{Down}
 	Return
 
 ; 5 Switch channel up
-F17::
++F5::
 	Send, !{Up}
 	Return
 
 ; 6 Backward
-F18::
++F6::
 	Send, !{Left}
 	Return
 
 ; 7 toggle emoji panel
-F19::
++F7::
 	Send, ^{e}
 	Return
 
 ; 8
-F20::
++F8::
 	Return
 
 ; 9 Toggle side voice text chat or members
-F21::
++F9::
 	Send, ^{u}
 	Return
